@@ -14,7 +14,7 @@ public class Main {
             // update expression
             i++;
 
-            while (i < 8) {
+            while (i < 9) {
                 System.out.println("Hello World");
 
                 // update expression
