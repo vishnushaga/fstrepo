@@ -1,6 +1,5 @@
 public class Main {
-    public static void main(String[] args)
-    {
+    public static void main(String[] args) {
         System.out.println("Hello world!");
 
         for (int i = 1; i <= 5; i++)
@@ -14,8 +13,15 @@ public class Main {
 
             // update expression
             i++;
-        }
+
+            while (i < 8) {
+                System.out.println("Hello World");
+
+                // update expression
+                i++;
+            }
         }
     }
+}
 
 
