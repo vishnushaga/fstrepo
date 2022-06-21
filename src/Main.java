@@ -1,15 +1,27 @@
 public class Main {
-
     public static void main(String[] args) {
-
         System.out.println("Hello world!");
 
-        if (20 > 18) {
-            System.out.println("20 is greater than 18");
-        }
+        for (int i = 1; i <= 5; i++)
+            System.out.println("Hello World");
 
+        int i = 1;
+
+        // test expression
+        while (i < 6) {
+            System.out.println("Hello World");
+
+            // update expression
+            i++;
+
+            while (i < 9) {
+                System.out.println("Hello World");
+
+                // update expression
+                i++;
             }
         }
-
+    }
+}
 
 
